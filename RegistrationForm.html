@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="icon" href="images/favicon1.ico">
+  </head>
+  <body bgcolor="yellow">
+    <h1>Registration Form</h1>
+    <br>
+    <br>
+<form>
+ <table>
+  <tr><td>First name:</td>
+    <td><input type="text" name="firstname" id="firstname"></td></tr>
+  <tr><td>Last name:</td>
+    <td><input type="text" name="lastname" id="lastname"></td></tr>
+  <tr><td>Email ID:</td>
+    <td><input type="text" name="email id" id="email id"></td></tr>
+  <tr><td>Gender:</td>
+    <td><input type="radio" name="gender" id="male">
+    <td<label for="male">Male</label><br>
+    <input type="radio" name="gender" id="female">
+    <td<label for="female">Female</label></td>
+  <tr><td>Occupation:</td>
+    <td><input type="text" name="Occupation" id="occupation"</td></tr>
+    <td>Phone number:</td>
+    <td><input type="text" name="Phone number" id="phone number"</td>
+
+<tr><td><label for="username">Username:</label>
+    <input type="text" name="username" id="username"></td></tr>
+    <td><label for="user-pwd">Password:</label>
+    <input type="password" name="pass" id="user-pwd"></td></tr>
+<tr><td><label for="user-pwd">Re-enter Password:</label>
+    <input type="password" name="pass" id="user-pwd"></td></tr>
+    </table>
+
+    <table>
+    <label for="city">City:</label>
+     <select name="city" id="city">
+     <option value="port moresby">Port Moresby</option>
+     <option value="madang">Madang</option>
+     <option value="goroka">Goroka</option>
+     <option value="lae">Lae</option>
+     </select>
+     <br>
+     <br>
+    <tr>
+      <label for="feedack">Feedback:</label>
+      <textarea rows="5" cols="40" name="address" id="Address"></textarea>
+      </tr>
+  <br>
+  <br>
+    <form action="action.php" method="post">
+       <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+     </table>
+   </table>
+     </form>
+  </body>
+</html>

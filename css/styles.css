@@ -1,0 +1,17 @@
+body{
+  background-color: #eef9bf;
+}
+img{
+  border-radius: 40%;
+  width: 80%;
+}
+p{
+  color:red;
+  text-align:center;
+}
+h4{
+  color:green;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
